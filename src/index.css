@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+:root{
+ --main-color: #518581;
+ --secondary-color: #FFB23F; 
+ --text-color: #151411;
+ --paragraph-color: #AFADB5;
+ --placeholder-color:#F9F9F9;
+ --screen-color:#FFFFFF;
+ --line-color:#F3F3F3;
+ --gradient-color: linear-gradient(90deg, rgba(64,180,166,1) 51%, rgba(166,216,210,1) 100%);
+ --h1-font-size: 4rem;
+ --h2-font-size: 2.75rem;
+ --h3-font-size:1.625rem;
+ --h3-small-font-size:1.5rem;
+ --h4--font-size:1.25rem;
+ --h5-font-size: 1.125rem;
+ --h6-font-size: 1rem;
+ --h6-small-font-size: 0.875rem;
+ --paragraph-1-font-size: 0.875rem;
+ --paragraph-2-font-size: 1rem;
+ --paragraph-3-font-size: 1.125rem;
+ --paragraph-4-font-size: 0.75rem;
+ --label-font-size: 0.75rem;
+ --image-backdrop-color: ;
+}
+@font-face {
+  font-family:'Eudoxus-Sans-Regular';
+  src: 
+  local("Eudoxus-Sans-Regular") 
+  url(../assets/fonts/EudoxusSans-Regular.ttf) format('truetype');
+}
+
+/* 
+The Mobile is a 4 column grid
+The tablet is an 8 column grid
+the desktop is a 12 column grid */
